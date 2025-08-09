@@ -3,7 +3,7 @@ export const correctedTalentsData = [
         careerId: 2,
         tier: 2,
         talent: 2,
-        description: 'Critical hits cause enemies to take 20% increased damage for 15 seconds. Does not stack with similar effects.'
+        description: 'Critical hits cause enemies to take 20% increased damage for 15 seconds. Does not stack with similar effects. Note: damage buff applies to the hit which triggers the effect'
     },
     {
         careerId: 2,
@@ -99,7 +99,7 @@ export const correctedTalentsData = [
         careerId: 11,
         tier: 2,
         talent: 1,
-        description: `Critical hits cause enemies to take 20% increased damage for 15 seconds. Does not stack with similar effects.`
+        description: `Critical hits cause enemies to take 20% increased damage for 15 seconds. Does not stack with similar effects. Note: damage buff applies to the hit which triggers the effect`
     },
     {
         careerId: 11,
@@ -292,5 +292,65 @@ export const correctedTalentsData = [
         tier: 2,
         talent: 3,
         description: 'Damage of heavy attacks and Blessed Blade increased by 30%.'
+    },
+    {
+        careerId: 19,
+        tier: 2,
+        talent: 2,
+        description: 'Hits increase the damage of the next charged attack by 8%. Max stacks 5.'
+    },
+    {
+        careerId: 15,
+        tier: 2,
+        talent: 2,
+        description: 'Pushing an enemy ignites them, causing damage over time. Heavy attacks makes the next push arc 70% wider. Note: most push/block arc buffs only work as host'
+    },
+    {
+        careerId: 15,
+        tier: 2,
+        talent: 3,
+        description: 'Burning enemies have a small chance to to explode on death. Note: explosion does not damage or burn enemies hit'
+    },
+    {
+        careerId: 13,
+        tier: 2,
+        talent: 3,
+        description: 'Siennas burning effects now last until the affected enemy or Sienna dies. Burning effects do not stack, but have 200% tick rate.'
+    },
+    {
+        careerId: 18,
+        tier: 2,
+        talent: 2,
+        description: 'Melee strikes against poisoned targets make them bleed Note: applies to the attack which causes poison, so all melee attacks in practice'
+    },
+    {
+        careerId: 9,
+        tier: 2,
+        talent: 2,
+        description: 'Increases damage by 20% to poisoned or bleeding enemies. Note: damage buff applies to the hit which triggers the effect.'
+    },
+    {
+        careerId: 9,
+        tier: 4,
+        talent: 2,
+        description: 'Infiltrate recharges twice as fast for 3 seconds after killing an enemy with a backstab'
+    },
+    {
+        careerId: 16,
+        tier: 4,
+        talent: 2,
+        description: 'Increases the potency of the blessings rewarded upon completing a Quest by 50%, doubled effect on grimoire quest'
+    },
+    {
+        careerId: 16,
+        tier: 5,
+        talent: 1,
+        description: '50% of damage taken is regenerated as temporary health after 5 seconds, if you take additional damage before 5s have passed, the old damage will not be recovered.'
+    },
+    {
+        careerId: 16,
+        tier: 5,
+        talent: 3,
+        description: 'Increases push arc and stamina regeneration by 30%. Note: most push/block arc buffs only work as host'
     },
 ]
