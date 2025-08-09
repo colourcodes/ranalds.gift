@@ -17,7 +17,7 @@ export const correctedPerksData = [
     {
         careerId: 10,
         name: `Eternal Guard`,
-        description: 'No block cost from light attacks within the inner block angle. "Light attacks" are any attack that would take 2 stamina (1 shield) or less to block.'
+        description: 'No block cost from light attacks within the inner block angle. "Light attacks" are any attack that would take 2 stamina (1 shield) or less before modifiers to block.'
     },
     {
         careerId: 12,
@@ -33,5 +33,10 @@ export const correctedPerksData = [
         careerId: 19,
         name: 'Enemy of Chaos',
         description: `30% bonus to Power vs Super Armor.`
+    },
+    {
+        careerId: 20,
+        name: 'Cold Flames',
+        description: `Sienna's burn damage lasts twice as long, but has half the tick rate.`
     }
 ]
